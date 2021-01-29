@@ -1,7 +1,7 @@
 'use strict';
 
-const square = (x) => x * x;
-const sqrt = (x) => x ** 0.5; 
+const square = x => x ** 2;
+const sqrt = x => x ** 0.5; 
 
 function map(fn, array){
 	let result = [];
